@@ -1,5 +1,5 @@
         header {
-            background: rgb(225, 100, 175);
+            background: linear-gradient(#fab6eb,#d57dc2);
             border: aqua;
             border-width: 10px 0px 10px 0px;
             margin: 0 auto;
@@ -21,7 +21,7 @@
         }
 
         h3 {
-            background-color: #41083e;
+            background:linear-gradient(#00FFFF, #eab5eb);
             padding: 15px;
             font-size: 1.5em;
             border-left: 10px solid #d6d5cd;
@@ -29,7 +29,7 @@
 
         header,
         h3 {
-            color: pink;
+            color: rgb(119, 11, 106);
             font-family: "Papyrus", Gadget, sans-serif;
         }
 
@@ -44,6 +44,7 @@
             font-size: 1.3em;
             font-family: "	Brush Script MT", Lucida Handwriting
             ,cursive;
+            color: #bc3f94;
         }
 
         .emoji {
