@@ -1,0 +1,59 @@
+        header {
+            background: rgb(225, 100, 175);
+            border: aqua;
+            border-width: 10px 0px 10px 0px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3em;
+            color: aqua;
+        }
+
+        .circle {
+            height: 250px;
+            width: 250px;
+            background: pink;
+            border-radius: 50%;
+            border: 10px solid white;
+            display: inline-block;
+        }
+
+        h3 {
+            background-color: #41083e;
+            padding: 15px;
+            font-size: 1.5em;
+            border-left: 10px solid #d6d5cd;
+        }
+
+        header,
+        h3 {
+            color: pink;
+            font-family: "Papyrus", Gadget, sans-serif;
+        }
+
+        body {
+            font-family: "Lucida Handwriting", arial, san-serif;
+        }
+
+        p,
+        ul {
+            list-style: none;
+            padding-left: 50px;
+            font-size: 1.3em;
+            font-family: "	Brush Script MT", Lucida Handwriting
+            ,cursive;
+        }
+
+        .emoji {
+            font-size: 11em;
+        }
+        i{color: #2c082a;
+        font-family:"Papyrus", Gadget, sans-serif;}
+
+        img{
+            height: 249px;
+            width: 249px;
+            border-radius: 50%;
+        }
