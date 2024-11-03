@@ -2,7 +2,7 @@
             background: linear-gradient(#fab6eb,#d57dc2);
             border: aqua;
             border-width: 10px 0px 10px 0px;
-            margin: 0 auto;
+            margin: 100px;
             text-align: center;
         }
 
@@ -18,13 +18,14 @@
             border-radius: 50%;
             border: 10px solid white;
             display: inline-block;
+            margin: 12px;
         }
 
         h3 {
             background:linear-gradient(#00FFFF, #eab5eb);
             padding: 15px;
             font-size: 1.5em;
-            border-left: 10px solid #d6d5cd;
+            border-left: 10px solid #bc3f94;
         }
 
         header,
