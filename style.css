@@ -1,8 +1,8 @@
         header {
-            background: linear-gradient(#fab6eb,#d57dc2);
+            background: linear-gradient(F3D0D7,FFEFEF);
             border: aqua;
             border-width: 10px 0px 10px 0px;
-            margin: 100px;
+            margin: 0px;
             text-align: center;
         }
 
@@ -11,21 +11,14 @@
             color: aqua;
         }
 
-        .circle {
-            height: 250px;
-            width: 250px;
-            background: pink;
-            border-radius: 50%;
-            border: 10px solid white;
-            display: inline-block;
-            margin: 12px;
+
         }
 
         h3 {
-            background:linear-gradient(#00FFFF, #eab5eb);
+            background:linear-gradient(F6F5F2,F0EBE3);
             padding: 15px;
             font-size: 1.5em;
-            border-left: 10px solid #bc3f94;
+            border-left: 10px FFEFEF;
         }
 
         header,
@@ -45,7 +38,7 @@
             font-size: 1.3em;
             font-family: "	Brush Script MT", Lucida Handwriting
             ,cursive;
-            color: #bc3f94;
+            color: F3D0D7;
         }
 
         .emoji {
