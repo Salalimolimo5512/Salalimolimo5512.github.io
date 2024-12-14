@@ -1,54 +1,66 @@
-        header {
-            background: linear-gradient(F3D0D7,FFEFEF);
-            border: aqua;
-            border-width: 10px 0px 10px 0px;
-            margin: 0px;
-            text-align: center;
-        }
+body {
+    width: 100%;
+    margin: 0;
+    font-family: Papyrus, Copperplate, Fantasy;
+}
 
-        h1 {
-            font-size: 3em;
-            color: aqua;
-        }
+header {
+    background: linear-gradient(135deg, #f9f3ee, #F9CEEE);
+    color: white;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    text-shadow: black 1px 0 10px;
+}
 
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
 
-        }
+.logo img {
+    border-radius: 50%;
+}
 
-        h3 {
-            background:linear-gradient(F6F5F2,F0EBE3);
-            padding: 15px;
-            font-size: 1.5em;
-            border-left: 10px FFEFEF;
-        }
+nav {
+    width: 40%;
+}
 
-        header,
-        h3 {
-            color: rgb(119, 11, 106);
-            font-family: "Papyrus", Gadget, sans-serif;
-        }
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    /* gap: 2rem; */
+    list-style: none;
+    padding-inline: 40px;
+}
 
-        body {
-            font-family: "Lucida Handwriting", arial, san-serif;
-        }
+a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
 
-        p,
-        ul {
-            list-style: none;
-            padding-left: 50px;
-            font-size: 1.3em;
-            font-family: "	Brush Script MT", Lucida Handwriting
-            ,cursive;
-            color: F3D0D7;
-        }
+a::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    left: 0;
+    bottom: -3px;
+    height: 2px;
+    background: rgb(0, 0, 0);
+    transition: width 0.4s ease;
+}
 
-        .emoji {
-            font-size: 11em;
-        }
-        i{color: #2c082a;
-        font-family:"Papyrus", Gadget, sans-serif;}
-
-        img{
-            height: 249px;
-            width: 249px;
-            border-radius: 50%;
-        }
+a:hover::after {
+    width: 100%;
+}
+.skills { 
+    font-family: fantasy;
+    background:linear-gradient(#CCF3EE, #97C4B8);
+    
+}
