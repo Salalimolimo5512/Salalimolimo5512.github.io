@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background: linear-gradient(135deg, #f9f3ee, #F9CEEE);
+    background: linear-gradient(135deg, #F1E5D1, #DBB5B5);
     color: white;
     position: sticky;
     top: 0;
@@ -66,7 +66,7 @@ a:hover::after {
 }
 
 h1 {
-    color: F9CEEE;
+    color: #987070;
 }
 #home {background:url("./homebg.jpg") ;
     background-position:top;
@@ -80,12 +80,12 @@ h1 {
     align-items: center;
 }
 #about {
-    background-color: F9F3EE;
+    background-color: #fff;
     font-family: cursive;
     margin-top: 50px;
     text-align: justify;
     padding: 40px;
-    box-shadow: 0.5px 0.5px 10px #F9F3EE;
+    box-shadow: 0.5px 0.5px 10px #C39898;
     width: 80%;
     display: flex;
     gap: 20px;
@@ -96,7 +96,63 @@ main {
     align-items: center;
     justify-content: center;
 }
-.contactskills{
+.contact-skills{
     width: 50%;
     gap: 20px;
+}
+.about-me {
+width: 50%;
+font-size: 20px;
+}
+.contactInfo{
+    padding-left: 20%;
+}
+.progression{
+    background-color: #F1E5D1;
+    border-radius: 5px;
+}
+.progression-bar{
+    background-color: #C39898;
+    border-radius: 5px;
+    height: 10px;
+}
+.skill{
+    margin-bottom: 19px;
+}
+h2{
+    color: #DBB5B5;
+    text-shadow: none;
+}
+h4 {
+    color: #C39898;
+}
+h3{
+    color: #987070;
+}
+.skill-title{
+    margin-bottom: 10px;
+}
+#projects{
+    width: 70%;
+    margin: 50px;
+    padding: 20px;
+}
+#projects h1{
+    text-align: center;
+    font-size: 3em;
+    font-family: fantasy;
+}
+.project-row{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.project-card{
+    margin: 1em;
+    padding: 1em;
+    width:25%;
+    background-color: #F1E5D1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #C39898;
+    display: inline-block;
 }
