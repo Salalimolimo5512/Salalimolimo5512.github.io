@@ -244,3 +244,13 @@ input {
 .get-in-touch {
     font-family: cursive;
 }
+
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+
+    50% {
+        width: 12ch;
+    }
+}
