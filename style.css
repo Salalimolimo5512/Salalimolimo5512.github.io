@@ -70,7 +70,7 @@ h1 {
 }
 
 #home {
-    background: url("./homebg.jpg");
+    background: url("/homebg.jpg");
     background-position: top;
     background-size: cover;
     width: 100%;
@@ -192,7 +192,7 @@ h3 {
 }
 
 #contact {
-    background: linear-gradient(#ffffffc2, #dbb5b58e), url('./sunset.jpg');
+    background: linear-gradient(#ffffffc2, #dbb5b58e), url('/sunset.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
