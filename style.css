@@ -14,6 +14,10 @@ header {
     align-items: center;
     padding: 20px 20px;
     text-shadow: black 1px 0 10px;
+    z-index: 1000;
+    text-align: center;
+    font-size: 14px;
+
 }
 
 .logo {
@@ -29,6 +33,8 @@ header {
 
 nav {
     width: 40%;
+    font-size: 1em;
+
 }
 
 ul {
@@ -70,7 +76,7 @@ h1 {
 }
 
 #home {
-    background: url("./homebg.jpg");
+    background: url("./images/homebg.jpg");
     background-position: top;
     background-size: cover;
     width: 100%;
@@ -192,7 +198,7 @@ h3 {
 }
 
 #contact {
-    background: linear-gradient(#ffffffc2, #dbb5b58e), url('./sunset.jpg');
+    background: linear-gradient(#ffffffc2, #dbb5b58e), url('./images/sunset.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -253,4 +259,20 @@ input {
     50% {
         width: 12ch;
     }
+}
+.social {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+.cercle{
+    width: 20px;
+    height: 20px;
+    border:#987070 ;
+    border-radius: 50%;
+    
+}
+button {
+    border-radius: 20%;
+    margin-top: 16px;
 }
