@@ -277,7 +277,7 @@ button {
     margin-top: 16px;
 }
 .quote {
-background: linear-gradient(#ffffffc2, #dbb5b58e), url('./images/download.jpg');
+background: linear-gradient(#ffffffc2, #dbb5b58e), url('./images/download.jpeg');
     text-align: center 
     font-size: 2em
 }
