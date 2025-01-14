@@ -2,8 +2,7 @@ body {
   width: 100%;
   margin: 0;
   font-family: Papyrus, Copperplate, Fantasy;
-  direction: rtl; /* Added for RTL direction */
-}
+ }
 
 header {
 
@@ -553,5 +552,5 @@ button {
   background: linear-gradient(#ffffffc2, #dbb5b58e), url('./images/download.jpeg');
   text-align: center;  
   font-size: 2em;
-  height: 80vh;
+  height: 30vh;
 }
