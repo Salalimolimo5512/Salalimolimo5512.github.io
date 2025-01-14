@@ -551,6 +551,7 @@ button {
 
 .quote {
   background: linear-gradient(#ffffffc2, #dbb5b58e), url('./images/download.jpeg');
-  text-align: right; /* Added for right alignment */
+  text-align: center; /* Added for right alignment */
   font-size: 2em;
+  height: 188.97637795px;
 }
