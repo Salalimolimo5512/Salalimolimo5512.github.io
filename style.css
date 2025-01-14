@@ -549,7 +549,8 @@ button {
 }
 
 .quote {
-  background: linear-gradient(#ffffffc2, #dbb5b58e), url('./images/download.jpeg');
+  background: linear-gradient(rgba(255, 255, 255, 0.76), rgba(219, 181, 181, 0.56)), 
+              url('./images/download.jpeg');
   text-align: center;  
   font-size: 2em;
   height: 30vh;
@@ -557,3 +558,4 @@ button {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
