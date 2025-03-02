@@ -6,9 +6,9 @@ body {
 
 header {
 
-    background: linear-gradient(135deg, #F1E5D1, #DBB5B5);
+    background: linear-gradient(135deg, #F1E5D1, #e0bbbb);
 
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.981);
 
     position: sticky;
 
@@ -45,7 +45,8 @@ header {
     align-items: center;
 
     gap: 20px;
-
+    height: 40px;
+    width: 40px;
 }
 
 
@@ -173,7 +174,6 @@ h1 {
 
 
 
-
 #about {
 
     background-color: #fff;
@@ -257,9 +257,7 @@ main {
     border-radius: 5px;
 
     height: 10px;
-
 }
-
 
 
 .skill {
@@ -336,7 +334,6 @@ h3 {
 
     gap: 20px;
 
-    flex-wrap: wrap;    
     width: 100%;
 
 }
@@ -451,24 +448,33 @@ h3 {
     width: 50%;
 
 }
+
 .contact-form {
     width: 50%;
 }
+
 .contact-form-get-in-touch {
     display: flex;
     gap: 20px;
     width: 100%;
 }
 
-input {
+input,
+textarea {
 
     background-color: #DBB5B5;
 
     font-family: fantasy;
 
-    width: 100%;
+    width: 90%;
 
 
+    margin-block: 10px;
+
+}
+
+input {
+    height: 35px;
 
 }
 
@@ -484,15 +490,6 @@ form {
 
 }
 
-
-
-input {
-
-    height: 35px;
-
-    margin-block: 10px;
-
-}
 
 
 
@@ -524,101 +521,146 @@ input {
     white-space: nowrap;
     width: 30ch;
     animation: typing 8s steps(25) infinite;
-    blink: 0.9s step-start infinite;}
-
-    .social {
-
-        display: flex;
-
-        gap: 20px;
-
-        margin-top: 20px;
-        justify-content: center;
-
-    }
-
-    .cercle {
-
-        width: 20px;
-
-        height: 20px;
-
-        border: #987070;
-
-        border-radius: 50%;
-
-
-
-    }
-
-    button {
-
-        border-radius: 20%;
-
-        margin-top: 16px;
-
-    }
-
-    .quote {
-        background: linear-gradient(#ffffffc2, #dbb5b58e), url('./images/quotewallpaper.jpg');
-
-        background-size: cover;
-    
-        background-repeat: no-repeat;
-    
-        background-attachment: fixed;
-    
-        height: 40vh;
-        
-    }
-    .quote h2{
-        text-align: center;
-        font-size: 35px;
-        text-shadow: rgba(155, 148, 148, 0.883);
-        
-    }
-    .quote h3 {
-        text-align: left;
-        font-size: 25px;
-        margin-left: 20px;
-        color: white;
-    }
-    .quote h4 {
-        text-align:center;
-        font-size: 25px;
-    }
-
-    .get-in-touch ul{
-            display: flex;
-    }
-
-    @media only screen and (max-width: 500px){
-        #about {
-            flex-direction: column;
-        }
-        .about-me{
-            width: 100%;
-        
-        }
-        .contact-skills{
-            width: 100%;
-        }
-        .contact-card{
-            flex-direction: column;
-        }
-        .get-in-touch ul{
-            flex-direction: column;
-        }
-        .contact-form-get-in-touch{
-            flex-direction: column;
-        }
-    }
-        
-.project-img {
-height: 5cm;
-width: 5cm;
+    blink: 0.9s step-start infinite;
 }
-textarea {
-    height: 200px;
-    width: 400px;
+
+.social {
+
+    display: flex;
+
+    gap: 20px;
+
+    margin-top: 20px;
+    justify-content: center;
+
+}
+
+.cercle {
+
+    width: 20px;
+
+    height: 20px;
+
+    border: #987070;
+
+    border-radius: 50%;
+
+
+
+}
+
+button {
+
+    border-radius: 20%;
+
+    margin-top: 16px;
+
+}
+
+.quote {
+
+    padding: 40px;
+    background-color: #C39898;
+    height: 60vh;
+    background: linear-gradient(#F1E5D1, #DBB5B5);
+}
+
+.quote h2 {
+    text-align: center;
+    font-size: 35px;
+    text-shadow: rgba(155, 148, 148, 0.883);
+    
+}
+
+.quote h3 {
+    text-align: left;
+    font-size: 25px;
+    margin-left: 20px;
+    color: white;
+}
+
+.quote h4 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.get-in-touch ul {
+    display: flex;
+}
+
+@media only screen and (max-width: 700px) {
+    #about {
+        flex-direction: column;
+    }
+
+    .about-me {
+        width: 100%;
+
+    }
+
+    .contact-skills {
+        width: 100%;
+    }
+
+    .contact-card {
+        flex-direction: column;
+    }
+
+    .get-in-touch ul {
+        flex-direction: column;
+    }
+
+    .contact-form-get-in-touch {
+        flex-direction: column;
+    }
+
+    .project-row {
+        flex-wrap: wrap;
+
+    }
+
+    .project-card {
+        width: 100%;
+    }
+
+    header {
+        flex-direction: column;
+    }
+}
+
+.project-img {
+
+    height: 5cm;
+
+    width: 5cm;
+}
+
+.project-img {
+    width: 70%;
+
+}
+footer {
+    background:linear-gradient(#F1E5D1, #DBB5B5);
+}
+@keyframes progress {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: var(--width);
+    }
+}
+.skills:hover .progression-bar{
+    animation: progress 5s ease-in-out;
+}
+.quote p {
+    font-size: 20px;
+    text-align: right;
+}
+.form-ehyaa {
+    background-color: #987070;
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 500px;
 }
